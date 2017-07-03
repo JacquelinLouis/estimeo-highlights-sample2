@@ -76,10 +76,12 @@ describe('<HighlightGrid />', () => {
             ]
         }].reverse();
     });
-
-    /**
-     * TODO
-     */
+    /*
+    it('has 3 tag in gridlist in the given dataset', () => {
+        const wrapper = shallow(<HighlightGrid />);
+        expect(wrapper.find('GridList').length).toBe(3)
+    });
+    */
     it('will success', () => {
         expect(false).toBe(false)
     })
